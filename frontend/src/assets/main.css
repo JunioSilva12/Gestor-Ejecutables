@@ -1,0 +1,45 @@
+
+
+@import "tailwindcss";
+@import "tailwindcss-primeui";
+
+@theme {
+  --color-primary: #0C4A6E;
+  --color-secondary: #0EA5E9;
+  --color-background: #F1F5F9;
+  --color-background-second: #E5E7EB;
+  --color-primary-components: #FFFFFF;
+  --color-indicadores-camras: #F0F9FF;
+  --color-primary-text: #0F172A;
+  --color-second-text: #64748B;
+  --color-titulos: #ffffff;
+  --color-border: #BAE6FD;
+  /*! ESTO ES PARA LOS ICONOS DE LOS INDICADORES ↓↓↓ */
+  --color-background-estado-activo: #DBEAFE;
+  --color-text-estados: #0C4A6E;
+  --color-background-estado-inactivo: #FEE2E2;
+  --color-text-inactivo: #DC2626;
+  --color-text-acceso-entrada: #0EA5E9;
+  --color-text-acceso-salida: #F59E0B;
+  --color-background-icono-accesos-hoy: #DBEAFE;
+  --color-icono-accesos-hoy: #1E40AF;
+  --color-background-icono-accesos: #D1FAE5;
+  --color-icono-accesos: #065F46;
+  --color-background-icono-visitantes: #FED7AA;
+  --color-icono-visitantes: #C2410C;
+  --color-background-icono-alertas: #FEE2E2;
+  --color-icono-alertas: #DC2626;
+    /*! ESTO ES PARA LOS ICONOS DE LOS INDICADORES ↑↑↑ */
+  --color-hover-botones-secundarios: #D1D5DB;
+
+}
+
+html{
+    width: 100%;
+    height: 100%;
+
+}
+
+.scroll-stable {
+    scrollbar-gutter: stable;
+}
